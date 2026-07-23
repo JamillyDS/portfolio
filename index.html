@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="/src/style.css">
 
     <title>Portfolio</title>
 </head>
+
 <body>
-    
+
     <header class="head">
 
-        <div class="container-header">
-            <p class="name">Jamilly Santos</p>
+        <div class="meu-logo">Jamilly Santos</div>
 
-            <nav class="container-navigation">
+        <input type="checkbox" id="menu-toggle">
 
-                <a href="#about">Sobre Mim</a>
-                <a href="#contact">Contatos</a>
-                <a href="#project">Projetos</a>
+        <label for="menu-toggle" class="hamburguer">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
 
-            </nav>
-
-        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#contact">Contatos</a></li>
+                <li><a href="#project">Projetos</a></li>
+            </ul>
+        </nav>
 
     </header>
 
@@ -32,12 +41,81 @@
         <section class="home">
 
             <div class="content-text">
-                <h1 class="title-init">Olá. <span class="span-init">Eu sou a Jamilly</span><span class="span-second">Desenvolvedor Full-Stack</span></h1>    
+
+                <h1 class="title">Olá.
+                    <span class="hero">
+                        <span class="line"></span>
+                        <span id="name">
+                            Eu sou a Jamilly
+                        </span>
+                    </span>
+                    <span>Desenvolvedora Full-Stack</span>
+                </h1>
+
+                <button id="botao">Me Contate</button>
+
             </div>
 
+            <img src="#" alt="Minha Imagem" id="eu">
+
+
+
+        </section>
+        <div class="linguagens">
+
+            <marquee behavior="alternativ" scrollamount="8" class="p">
+
+                <div class="text-lin">
+
+                    <p>Html</p>
+                    <p>Css</p>
+                    <p>Java Script</p>
+                    <p>React</p>
+                    <p>Node.js</p>
+                    <p>Python</p>
+                    <p>Php</p>
+                    <p>Git</p>
+                    <p>GitHub</p>
+
+                </div>
+
+            </marquee>
+
+        </div>
+
+
+        <section class="about" id="about">
+
+            <div class="content-textAbout">
+                <h2 class="title">Sobre Mim</h2>
+                <p class="text">Desenvolvedora Full-Stack Junior apaixonada por tecnologia e resolução de problemas. Técnica em Desenvolvimento de Sistemas, sigo em aprimoramento constante no desenvolvimento de software, buscando criar aplicações modernas, eficientes e focadas na experiência do usuário.</p>
+            </div>
+
+            <div class="content-tech">
+                <h2 class="title">Tecnologias</h2>
+
+                <div class="bac-linguagens">
+
+                    <i class="fa-brands fa-html5" style="color: #fcefe7;"></i>
+                    <i class="fa-brands fa-css3-alt" style="color: #fcefe7;"></i>
+                    <i class="fa-brands fa-square-js" style="color: #fcefe7;"></i>
+                    <i class="fa-brands fa-react" style="color: #fcefe7;"></i>
+                    <i class="fa-brands fa-node-js" style="color: #fcefe7;"></i>
+                    <i class="fa-brands fa-php" style="color: #fcefe7;"></i>
+                    <i class="fa-brands fa-python" style="color: #fcefe7;"></i>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="line2"></div>
+
+        <section class="projects" id="project">
+            
         </section>
 
     </main>
 
 </body>
+
 </html>
