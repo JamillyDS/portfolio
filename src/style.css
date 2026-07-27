@@ -252,3 +252,63 @@ body {
     left: 46rem;
     top: 115.3rem;
 }
+
+#cont {
+    display: flex;
+    justify-content: space-between;
+    margin: 12rem 6.3rem;
+}
+
+.container-text {
+    width: 600px;
+
+    .title-project {
+        font-family: 'Coiny', system-ui;
+        text-align: center;
+        color: #BB96E4;
+        font-size: 1.6rem;
+    }
+
+    .text-project {
+        color: #FCEFE7;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 1rem;
+        margin: 0.4rem 0;
+    }
+    .btn {
+        width: 200px;
+        padding: 0.5rem;
+        border: none;
+        margin: 1rem;
+        border-radius: 20rem;
+        color: #2B313F;
+        background-color: #FCEFE7;
+        font-weight: bolder;
+        cursor: pointer;
+        font-family: "Comfortaa", sans-serif;
+        transition: 0.4s ease;
+    }
+
+    .btn:hover {
+        background-color: #3B4354;
+        color: #FCEFE7;
+    }
+}
+
+#cont2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12rem 6.3rem;
+}
+
+footer {
+    width: 100%;
+    margin: 8rem 0;
+    background-color: #3B4354;
+    padding: 2rem;
+}
+
+.fa-brands {
+    font-size: 2.3rem;
+}
